@@ -95,3 +95,13 @@ function* idGenerator() {
 const gen = idGenerator();
 console.log(gen.next().value); // 1
 console.log(gen.next().value); // 2
+
+
+// 8. Destructuring
+
+let listOfFruits = ['Apple', 'Banana', 'Mango', 'Guava', 'Kiwi'];
+const [a, b, c, d, e] = listOfFruits;
+console.log(a);
+
+let obj = {...listOfFruits};
+console.log(obj);
